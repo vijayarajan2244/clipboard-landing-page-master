@@ -1,0 +1,412 @@
+body{
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.logo>img{
+    position: relative;
+    top: 120px;
+    left: 610px;
+}
+.lg-row1{
+    position: relative;
+    top: 150px;
+}
+.top-title{
+    display: flex;
+    justify-content: center;
+}
+.top-para{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 360px;
+}
+.button2{
+    width: 190px;
+    margin-top: 30px;
+}
+.top-title1{
+    display: flex;
+    justify-content: center;
+}
+.top-para2{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.lg-row1-1{
+    position: relative;
+    top: 120px;
+}
+
+.lg-row2{
+    position: relative;
+    top: 100px;
+
+
+}
+
+.pc-image{
+    margin-top: 270px;
+    margin-left: -170px;
+}
+.quick{
+    margin-left: 80px;
+    margin-top: 300px;
+
+}
+.icloud{
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+.history{
+    margin-top: 80px;
+    margin-left: 80px;
+    
+}
+.lg-row3{
+    position: relative;
+    top: 270px;
+}
+.middle-title{
+    display: flex;
+    justify-content: center;
+}
+.middle-para{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.lg-row4{
+    position: relative;
+    top: 280px;
+    left: 80px;
+}
+.lg-row5{
+    position: relative;
+    top: 390px;
+}
+.fifth-title,
+.fifth-para{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lg-row6{
+    position: relative;
+    top: 450px;
+}
+.blacklists,
+.snippets,
+.preview,
+.sixth-title,
+.sixth-para{
+    display: flex;
+    justify-content: center;
+}
+
+.sixth-title{
+    margin-top: 40px;
+}
+.sixth-para{
+    margin-top: 10px;
+}
+
+
+.companies{
+    position: relative;
+    top: 600px;
+}
+
+.lg-row7{
+    position: relative;
+    top:750px;
+}
+.bottom-title,
+.bottom-para{
+    display: flex;
+    justify-content: center;
+}
+.bottom-para{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lg-row8{
+    position: relative;
+    top: 750px;
+}
+
+
+.footer-colour{
+    margin-top: 800px;
+    background-color: hsl(0, 0%, 95%);
+    height: 100%;
+}
+.footer-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact,
+.privacy,
+.guide{
+    margin-top: 50px;
+    list-style-type: none;
+}
+.list-items{
+    color: rgb(88, 82, 82);
+    text-decoration: none;
+}
+.icon{
+    margin-top: 55px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon>a{
+    font-size: 22px;
+    color: rgb(88, 82, 82);
+}
+.author{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.link{
+    text-decoration: none;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .logo>img{
+        margin-left: -100px;
+    }
+    .button1{
+        margin-left: 270px;
+    }
+    .pc-image{
+        margin-left: -230px;
+    }
+    .vector,
+    .hewlett,
+    .microsoft,
+    .ibm{
+        margin-left: 20px;
+    }
+    
+    
+ 
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .logo>img{
+        margin-left: -210px;
+    }
+    .button1{
+        margin-left: 150px;
+    }
+    .pc-image{
+        margin-left: 0;
+    }
+    .quick{
+        text-align: center;
+        margin-top: 100px;  
+    }
+    .quick,
+    .icloud,
+    .history{
+        text-align: center;
+    }
+    .middle-title,
+    .middle-para{
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .tablet-image>img{
+        margin-left: -120px;
+        
+    }
+    .google>img,
+    .ibm>img,
+    .microsoft>img,
+    .hewlett>img,
+    .vector>img{
+        width: 90px;
+    }
+    .microsoft>img{
+        margin-left: 20px;
+
+    }
+    .button1{
+        margin-left: 160px;
+    }
+    .button2{
+        margin-left: 10px;
+    }
+
+    
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .logo>img{
+        margin-left: -210px;
+    }
+    .top-title,
+    .top-para{
+        width: 100%;
+        margin-left: 150px;
+    }
+    .top-title1,
+    .top-para2{
+        width: 100%;
+        margin-left: 150px;
+    }
+    .button1{
+        margin-left: 200px;
+    }
+    .button2{
+        margin-left: 150px;
+    }
+    .pc-image>img{
+        margin-left: 210px;
+    }
+    .quick{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+    .icloud,
+    .history{
+        width: 100%;
+        margin-left: 150px;
+    }
+    .middle-title,
+    .middle-para{
+        width: 100%;
+        margin-left: 150px;
+    }
+    .middle-para{
+        margin-top: 30px;
+    }
+    .tablet-image>img{
+        margin-left: -70px;
+    }
+    
+    .fifth-title,
+    .fifth-para{
+        width: 100%;
+        margin-left: 130px;
+    }
+    .blacklists,
+    .snippets,
+    .preview{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    .sixth-title,
+    .sixth-para{
+        width: 100%;
+        margin-left: 130px;
+    }
+
+
+    .google,
+    .ibm,
+    .microsoft,
+    .hewlett,
+    .vector{
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 300px;
+    }
+    .google>img{
+        margin-left: 280px;
+    }
+    .microsoft>img{
+        margin-left: -20px;
+    }
+    .vector>img{
+        margin-left: -20px;
+    }
+    .ibm>img{
+        margin-left: -40px;
+    }
+    .hewlett>img{
+        margin-left: -40px;
+    }
+    .bottom-title,
+    .bottom-para{
+        width: 100%;
+        margin-left: 130px;
+    }
+    .footer-colour{
+        width:903px;
+
+    }
+    .footer-logo{
+        margin-left: -100px;
+    }
+    .icon{
+        margin-left: 150px;
+
+    }
+ 
+    
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background-image: url(/images/bg-header-mobile.png);
+    }
+    .pc-image>img{
+        margin-left: 190px;
+        width: 300px;
+        height: 220px;
+    }
+    .tablet-image>img{
+        margin-left: -55px;
+        width: 300px;
+        height: 220px;
+
+    }
+    .button1{
+        margin-left: 0px;
+    }
+    .logo>img{
+        margin-left: -500px;
+    }
+    .google>img{
+        width: 150px;
+    }
+    .ibm>img{
+        margin-top: 50px;
+        width: 100px;
+    }
+    .microsoft>img{
+        margin-top: 50px;
+        width: 150px;
+    }
+    .hewlett>img{
+        margin-top: 50px;
+        width:fit-content;
+    }
+    .vector>img{
+        margin-top: 50px;
+        width: 150px;
+    }
+    
+
+
+
+
+}
