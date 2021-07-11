@@ -427,6 +427,11 @@ body{
        margin-right: 60px;
 
     }
+    .quick,
+    .icloud,
+    .history{
+        margin-left: 30px;
+    }
     
 
 
